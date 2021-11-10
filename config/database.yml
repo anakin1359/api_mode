@@ -1,0 +1,23 @@
+# PostgreSQL. Versions 9.3 and up are supported.
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: db
+  username: postgres
+  password: password
+  pool: 5
+
+development:
+  <<: *default
+  database: develop_development
+
+test:
+  <<: *default
+  database: develop_test
+
+production:
+  <<: *default
+  database: develop_production
+  username: develop
+  password: <%= ENV['DEVELOP_DATABASE_PASSWORD'] %>
