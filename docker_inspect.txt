@@ -1,0 +1,256 @@
+[
+    {
+        "Id": "475b5cedeff4b26647310567d674a428ddc286c80aec13d18acc81534252e4a2",
+        "Created": "2021-11-11T14:43:15.9421596Z",
+        "Path": "entrypoint.sh",
+        "Args": [
+            "bash",
+            "-c",
+            "rm -f tmp/pids/server.pid \u0026\u0026 bundle exec rails s -p 3000 -b '0.0.0.0'"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 31691,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2021-11-11T14:43:20.9476919Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:84a04623267080b360c644b497b42c2c783c0c2a1a6439287c29f4bd64522a28",
+        "ResolvConfPath": "/var/lib/docker/containers/475b5cedeff4b26647310567d674a428ddc286c80aec13d18acc81534252e4a2/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/475b5cedeff4b26647310567d674a428ddc286c80aec13d18acc81534252e4a2/hostname",
+        "HostsPath": "/var/lib/docker/containers/475b5cedeff4b26647310567d674a428ddc286c80aec13d18acc81534252e4a2/hosts",
+        "LogPath": "/var/lib/docker/containers/475b5cedeff4b26647310567d674a428ddc286c80aec13d18acc81534252e4a2/475b5cedeff4b26647310567d674a428ddc286c80aec13d18acc81534252e4a2-json.log",
+        "Name": "/mode_api_web_1",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": [
+            "5803515a5ba0d2f0dbb7679ec9891388522434942f75185822809ff606e0ffe9"
+        ],
+        "HostConfig": {
+            "Binds": [
+                "/Users/masatotakeuchi/Desktop/anakin/06_Ruby_on_Rails/mode_api:/develop:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "mode_api_default",
+            "PortBindings": {
+                "3000/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "3000"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": [],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "host",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "KernelMemory": 0,
+            "KernelMemoryTCP": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/532b20ffb40e7d59cc3d46f49a8f94b72687b55ac5a47941c4f3fe3c9fab9821-init/diff:/var/lib/docker/overlay2/utip2qmv5zeqxpbbefgnpa47k/diff:/var/lib/docker/overlay2/ijf106s9j6zp38jqurp8l6dkr/diff:/var/lib/docker/overlay2/km7xx02kis8ylx5s384l2jrrf/diff:/var/lib/docker/overlay2/lo8govewy1cmyf7yh3271klv7/diff:/var/lib/docker/overlay2/kzqcyiu0w736reuds0eiyrfsx/diff:/var/lib/docker/overlay2/i31ufbqcg8brzp4un93tzrrsh/diff:/var/lib/docker/overlay2/elsygqv8345g1rrfafbikh5o9/diff:/var/lib/docker/overlay2/mbv7xsk72m5qmkotdtl0is6er/diff:/var/lib/docker/overlay2/zxrlvmgw8yy17gtaulxq8e7o3/diff:/var/lib/docker/overlay2/mzuc1bljvr7bc3t0le0nip91m/diff:/var/lib/docker/overlay2/9aalxpf5s1gyogkx77w2vgnuu/diff:/var/lib/docker/overlay2/88e2a918bd5cf3658ad58caddaf0823ab2b9efe987160438c73f5996aedabf41/diff:/var/lib/docker/overlay2/fe9f6be033f085c1e98decbadc1d8d637790439576ef859435761684237d2cef/diff:/var/lib/docker/overlay2/d126cae04a53ce1911e741f537ad2abe9cc5ba81af61c59dd6b0edc26c25efa4/diff:/var/lib/docker/overlay2/40b0f6208ee42cd646e24b3443ed5a7e35d92289a5b1a9fa3d6d5a4706d5dbec/diff:/var/lib/docker/overlay2/97a6bc75e2a570d49e2461e9b241c2854c2aabb8f1e6aebe2f6b64f8ec669e06/diff:/var/lib/docker/overlay2/ba29d12f1da5b04f071d4181e644da3e9c86d476c340c35edb2732132ac89a26/diff:/var/lib/docker/overlay2/4c1653dd05a35c4a8d4f2e1ce035eab9d8e08d5f80b8907e299312c991870753/diff:/var/lib/docker/overlay2/5fcea17d17d89234903198653fd40d44fe1bf54a47139a6422de83db560b1663/diff",
+                "MergedDir": "/var/lib/docker/overlay2/532b20ffb40e7d59cc3d46f49a8f94b72687b55ac5a47941c4f3fe3c9fab9821/merged",
+                "UpperDir": "/var/lib/docker/overlay2/532b20ffb40e7d59cc3d46f49a8f94b72687b55ac5a47941c4f3fe3c9fab9821/diff",
+                "WorkDir": "/var/lib/docker/overlay2/532b20ffb40e7d59cc3d46f49a8f94b72687b55ac5a47941c4f3fe3c9fab9821/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/Users/masatotakeuchi/Desktop/anakin/06_Ruby_on_Rails/mode_api",
+                "Destination": "/develop",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "475b5cedeff4",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "3000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bundle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "RUBY_MAJOR=2.6",
+                "RUBY_VERSION=2.6.8",
+                "RUBY_DOWNLOAD_SHA256=8262e4663169c85787fdc9bfbd04d9eb86eb2a4b56d7f98373a8fcaa18e593eb",
+                "GEM_HOME=/usr/local/bundle",
+                "BUNDLE_SILENCE_ROOT_WARNING=1",
+                "BUNDLE_APP_CONFIG=/usr/local/bundle",
+                "APP_ROOT=/develop"
+            ],
+            "Cmd": [
+                "bash",
+                "-c",
+                "rm -f tmp/pids/server.pid \u0026\u0026 bundle exec rails s -p 3000 -b '0.0.0.0'"
+            ],
+            "Image": "mode_api_web",
+            "Volumes": {
+                "/develop": {}
+            },
+            "WorkingDir": "/develop",
+            "Entrypoint": [
+                "entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "de371f0d93ef90fb40aa8e4fa15a5225db2adc11133d4c801405a3cbfd82f41a",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "mode_api",
+                "com.docker.compose.project.config_files": "docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/Users/masatotakeuchi/Desktop/anakin/06_Ruby_on_Rails/mode_api",
+                "com.docker.compose.service": "web",
+                "com.docker.compose.version": "1.29.2"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "7b08f8bcb5f3ede6e9836540ee50c39a88ed7e071f28f34a0e760e708052e8ba",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "3000/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "3000"
+                    }
+                ]
+            },
+            "SandboxKey": "/var/run/docker/netns/7b08f8bcb5f3",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "mode_api_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "web",
+                        "475b5cedeff4"
+                    ],
+                    "NetworkID": "d92d608a7a5dcf0d1ca7fa8ed8253e970c6b5454b1f5c34f14a3d584e7b53528",
+                    "EndpointID": "63928ff1cabeb6c05a0a9bac6cca32e12060ecbc1a442a23b59f7af8b1e6665f",
+                    "Gateway": "172.24.0.1",
+                    "IPAddress": "172.24.0.3",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:18:00:03",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]
